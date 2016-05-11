@@ -13,7 +13,7 @@ module.exports = new Script({
 
     start: {
         receive: (bot) => {
-            return bot.say('Curious, but not sure? Just say HELLO I'm here to help.')
+            return bot.say('So you want to learn more? Just say HELLO to get started.')
                 .then(() => 'speak');
         }
     },
@@ -68,3 +68,5 @@ module.exports = new Script({
         }
     }
 });
+Status API Training Shop Blog About
+© 2016 GitHub, Inc. Terms Privacy Security Contact Help
